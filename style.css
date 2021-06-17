@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+body{
+    background-color: #ebebeb;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#img-div img{
+    width: 900px;
+    border-radius: 10px;
+    max-width: 600px;
+    height: auto;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 30px;
+    margin-top: 20px;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    position: sticky;
+}
+ h1{
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+}
+#img-caption p{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+#tribute-info{
+    padding: 40px;
+    text-align: left;
+    background-color: white;
+    margin: 30px;
+    border-radius: 20px;
+}
+#tribute-info h2{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+#tribute-info p{
+    padding-top: 20px;
+}
+#tribute-info h3{
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer{
+        background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+@media (max-width:1000px){
+    #main img{
+        max-width: 500px;
+        width: 400px;
+    }
+}
+@media (max-width:510px) {
+    #main img{
+        max-width: 500px;
+        width: 300px;
+    }
+}
+@media (max-width:370px) {
+    #main img{
+        max-width: 500px;
+        width: 250px;
+    }
+}
